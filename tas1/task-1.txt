@@ -1,0 +1,71 @@
+Date:11-05-2021  Task-1
+
+Q1. Top 50 important HTML tags
+
+ 1.<!DOCTYPE html> -- Its the tag which gives the information of the HTML version you used to the browser.
+ 2.Heading Tags -- There are six heading tags from <h1> to <h6>. Themain difference between these tags is their font size. The <h1> tag has the larger font size, where as <h6> tag has the smaller font size.
+ 3.<p> -- It is the paragraph tag, used for the paragraphs.
+ 4.<section> -- It is used to specify a section of decument or in a paragraph.
+ 5.<div> -- It is the division tag, used to represnt a particular section of webpage.
+ 6.<ul> -- It is the unordered list tag, used to represent the items which aren't in order.
+ 7.<ol> -- It is the ordered list tag, used for the the representation of the list items which are in oreder.
+ 8.<title> -- It is thr title tag, used to diplay the title of the page.
+ 9.<html> -- Every thing of the document lies in between thhis tag.
+ 10.<body> -- It is the body tag in which the information to the displayed to the users is written.
+ 11.<head> -- It is the head tag in which the web page information is written.
+ 12.<iframe> -- Is used to specify the inline frame. It consists of attributes such as 'src' and 'title' for the url of the page to be embedded and to describe the content respectively.
+ 13.<article> -- It is used to specify the independent and self-contained content.
+ 14.<address> -- It is used to display the address such as contact information of the owner.
+ 15.<blockquote> -- It is used to quote that the following information is quoted from a specific website.
+ 16.<pre> -- It is used to define the preformatted text.
+ 17.<dd> -- It is used to describe a term in the description.
+ 18.<dl> -- It is used to make a list of descriptions in an article.
+ 19.<form> -- It is used to create HTML form.
+ 20.<fieldset> -- It is used to group of elements in the HTML form. It creates a box around the elements.
+ 21.<figure> -- It is used to display the specified illustrations, photos, contents.
+ 22.<figcaption> -- It describes the caption of the figure.
+ 23.<header> -- It describes the header of a section or a document.
+ 24.<footer> -- It defines the footer of a document.
+ 25.<main> -- It defines the main content of the document.
+ 26.<hr> -- It is to break a paragraph with a horizantal line.
+ 27.<nav> -- It is used to define the set of navigation links.
+
+   The above elements are the block level elements.
+
+ 28.<a> -- It is the anchor tag, used to represent the hyperlink of a specific page. It consists of attributes 'src' and 'title' for url of the page to be linked and title describe the content respectively.
+ 29.<span> -- It is used to highlight the a section in the paragraph or a document or an article.
+ 30.<abbr> -- It is used to define the abbreviation or an acronym.
+ 31.<button> -- It is used to display the clickable button.
+ 32.<cite> -- It is used to describe the creative work.
+ 33.<b> -- It is used to make the text bold.
+ 34.<em> -- It is used to emphasize the text. The content inside the tag is generaly displayed in itallic.
+ 35.<select> -- It is used to create a drop-down list.
+ 36.<small> -- It is used to define smaller text, for exam ple copyright.
+ 37.<sub> -- It is used for displaying the text in subscript.
+ 38.<sup> -- It is used for displaying the text in subscript.
+ 39.<map> -- It is used to define the image map. An image map is an image with clickble areas.
+ 40.<label> -- It defines a label for several elements.
+ 41.<img> -- It is the image tag, used to display the image.
+ 42.<br> -- It is the the break tag used to break the line.
+ 43.<i> -- It is used to display the text in the italic format.
+ 44.<object> -- It is used to define the content of an external source.
+ 45.<q> -- It is used to represent the text in the quotes.
+ 46.<var> -- It is used to define a variable in programming or in a mathemetical expression. It content is generally in itallic.
+ 47.<script> -- It is used for javascript.
+ 48.<strong> -- It is used to display a part of text in bold.
+ 49.<output> -- It is used to display the output of a mathematical calculation.
+ 50.<input> -- It acts as the input field where user can enter the data.
+
+Q2. Difference between the inline elements and the block level elements.
+
+A: Block level Elements -- A block-level element can be defined as the block that stretches the entire line and blocks it. It always starts in a new line.
+   Inline Elements: -- An Inline element can be defined a the element that occupies the required amount of space only.
+
+Q3. Difference between semantic tags and non semantic elements.
+
+A: Semantic elements: -- These elements describe the type of content supposed to contain. Eg <article>, <nav>, <header>.
+   Non Semantic elements: -- These elements do not have any specific meaning. These contain anything.<span>, <div>.
+
+Q4. What are aattributes and its benefits.
+
+A: Attributes are the inline elements which describes the propety of the elements. These contain the additional information of the elements. 
