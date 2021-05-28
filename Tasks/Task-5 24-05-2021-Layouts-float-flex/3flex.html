@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3 - coloumn layout using display flex</title>
+	<style>
+		section{
+			border: 1px solid red;
+			display: flex;
+			padding: 10px;
+			flex-direction: row;
+		}
+		section div{
+			border: 1px solid red;
+			flex: 1;
+			padding: 10px;
+			margin: 2px;
+		}
+		section div:nth-child(2){
+			flex: 2;
+		}
+	</style>
+</head>
+<body>
+	<h1>3 - coloumn layout using display flex</h1>
+	<section>
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</section>
+
+</body>
+</html>

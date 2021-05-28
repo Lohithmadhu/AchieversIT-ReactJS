@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout using Float</title>
+	<style>
+	    .main{
+	    	border: 1px solid red;
+	    	margin: 10px;
+	    }
+	    header, .slide, .maincontent{
+	    	/*height: 150px;*/
+	    	border: 1px solid red;
+	    	margin: 10px;	
+	    }
+	    .slide{
+	    	height: 350px;
+	    }
+		.maincontent{
+			float: left;
+			/*border-top: 1px solid red;*/
+			width: 98.5%;
+		}
+		.maincontent div{
+			float: left;
+			width: 33.2%;
+			height: 350px;
+		}
+		.maincontent div:nth-child(2){
+			border-right: 1px solid red;
+			border-left: 1px solid red;
+		}
+
+	</style>
+</head>
+<body>
+	<section class="main">
+		<header>Header</header>
+		<div class="slide">Slider</div>
+		<section class="maincontent">
+			<div>LSB</div>
+			<div>MSB</div>
+			<div>RSB</div>
+		</section>
+		<footer>Footer</footer>
+	</section>
+</body>
+</html>

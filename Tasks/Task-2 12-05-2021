@@ -1,0 +1,19 @@
+Importance of alt attribute
+
+The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader)
+
+Difference between inline an block level elements
+
+-- Block level Elements -- A block-level element can be defined as the block that stretches the entire line and blocks it. It always starts in a new line.
+-- Inline Elements: -- An Inline element can be defined a the element that occupies the required amount of space only.
+
+Impotance of heading tags in HTML
+
+Heading tags are used to structure the document to the browser. Search engines like google, bing uses headings to index the structure and content of the web pages so use them very wisely in your webpage.
+
+Difference between the absolute path and relative path.
+
+Absolute path is path of trying to get the data from the external sources. In absolute path, there may be chance of missing of the file which we have used or the file name may be changed. Hence absolute path isn't better to prefer.
+
+
+Whereas realative path is the path which created in our own machine or in our local directory. We will have clear knowledge of our file history unlike in the absolute path. Hence relative path i preferrable than the absolute path.

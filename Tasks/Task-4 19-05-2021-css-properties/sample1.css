@@ -1,0 +1,26 @@
+.main{
+       border: 1px solid grey;
+       display: flex;
+}
+.s1{
+       border-right: 1px solid grey;
+       flex: 3;
+       padding: 20px;
+}
+.s1 img{
+       width: 100%;
+}
+.s2{
+       flex: 1;
+       border-right:  1px solid grey;
+}
+#list{
+       flex: 1;
+}
+.s3{
+       flex: 1;
+      /* border: 1px solid grey;*/
+}
+.s3 img{
+       width: 100%;
+}
