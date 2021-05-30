@@ -1,5 +1,6 @@
 body{ 
-	background-image: url(test1.JPG);
+	/*background-image: url(test1.JPG);*/
+	background-image: url("https://github.com/Lohithmadhu/AchieversIT-ReactJS/blob/gh-pages/Assignments/Assignment%202/test1.jpg?raw=true");
 	font: 85% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
