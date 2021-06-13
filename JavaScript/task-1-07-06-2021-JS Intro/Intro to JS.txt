@@ -1,0 +1,7 @@
+Q. Difference between scripting language and programming language
+A. Scripting language consists of interpreter. It doesn't require the compilation.
+   The programming language consits of the compiler which is used to convert the high-level language into machine language.
+
+Q. What is JavaScript and its uses?
+A. JavaScript is a text-based programmming language used on both client-side and server-side.
+   It allows the web pages to become interactive. 
