@@ -33,6 +33,11 @@ header a{
 	color: white;
 	text-decoration: none;
 }
+header a:hover{
+	padding: 10px;
+	background: grey;
+	border-radius: 10px;
+}
 header div{
 	flex: 1;
 }
@@ -41,6 +46,7 @@ header nav{
 }
 header ul{
 	display: flex;
+	padding: 15px;
 }
 header nav ul li{
 	flex: 1;
@@ -89,10 +95,10 @@ header nav ul li{
 	height: 150px;
 	border-radius: 15px;
 }
-.topmaincontent p{
-	/*padding: 20px;*/
-    /*margin: 10px*/
-}
+/* .topmaincontent p{
+	padding: 20px;
+    margin: 10px
+} */
 .topmaincontent div h1{
 	margin: 0px;
 }
@@ -239,3 +245,42 @@ footer a{
 	opacity: 0.5;
 }
 
+/* Dropdown Style begins here */ 
+
+.dropbtn {
+  background-color: #63696300; /*#636963 #04AA6D #3e8e4*/
+  color: white;
+  /* padding: 5px; */
+  border-radius: 8px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #636963 /*#3e8e41 */;
+}
