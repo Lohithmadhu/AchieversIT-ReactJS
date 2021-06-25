@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "../css/form1.css" />
+</head>
+<body>
+    <div id="login-box">
+        <div class="left">
+            <h1>Sign up</h1>
+            <form autocomplete = "off">
+                <input
+                type="text"
+                id="username" 
+                name="username" 
+                placeholder="Username" 
+                />
+                <p id="usernameErr" class ="hide"></p>
+                
+                <input 
+                type="text" 
+                id= "email"
+                name="email" 
+                placeholder="E-mail" 
+               />
+               <p id="emailErr" class="hide"></p>
+
+                <input
+                autocomplete="off"
+                id="password"
+                type="password"
+                name="password"
+                placeholder="Password"
+               />
+               <p id="passwordErr" class="hide"></p>
+
+                <input
+                type="password"
+                id="confirmPassword" 
+                name="password2" 
+                placeholder="Retype password" 
+                />
+                <p id="confirmPasswordErr" class="hide"></p>
+                
+                <input
+                 type="submit" 
+                 id="submit"
+                 name="signup_submit"
+                 value="Sign me up"
+               />
+               <p id = "successMsg"></p>
+            </form>      
+        </div>
+    </div>
+    <script src="../js/form1script.js"></script>
+</body>
+</html>
