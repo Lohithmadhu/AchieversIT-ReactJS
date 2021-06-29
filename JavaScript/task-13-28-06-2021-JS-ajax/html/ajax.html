@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax</title>
+    <link rel="stylesheet" href="../css/ajax.css" />
+</head>
+<body>
+    <header>
+    <div class="container">
+      <h1 class="logo"></h1>
+        logoHere
+      <nav>
+        <ul>
+          <li><a href="#" id="home">Home</a></li>
+          <li><a href="#" id="about">About</a></li>
+          <li><a href="#" id="pricing">Pricing</a></li>
+          <li><a href="#" id="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="result"></section>
+  <script>
+      let home = document.getElementById('home');
+      home.addEventListener('click', getData);
+
+        function getData(){
+          
+          //XMLHttpRequest
+          let xhr = new XMLHttpRequest();
+
+          //3 arguments 'HTTP Methods', 'url,file', true/false(if true its a asynchronous function and if its false its a synchronous function)
+          console.log(xhr);
+          console.log(`before request ${xhr.readyState}`);
+          // xhr.open('GET','home.html',true);
+          xhr.open('GET', 'https://jsonplaceholder.typicode.com/users', true);
+          console.log(`after request ${xhr.readyState}`);
+          xhr.onload = function (){
+            if(xhr.status == 200){
+              let result = document.getElementById('result');
+              result.innerHTML = xhr.responseText;
+              console.log(xhr.responseText);
+            }
+          };
+          xhr.send();
+        
+        }
+
+      let about = document.getElementById('about');
+      about.addEventListener('click', getAboutData);
+
+      function getAboutData() {
+        let xhr = new XMLHttpRequest();
+        console.log(xhr);
+        console.log(`before request ${xhr.readyState}`);
+        xhr.open('GET','about.html',true);
+        console.log(`after request ${xhr.readyState}`);
+        xhr.onload = function (){
+          if(xhr.status == 200){
+            let result = document.getElementById('result');
+            result.innerHTML = xhr.responseText;
+            console.log(xhr.responseText);
+          }
+        };
+        xhr.send();
+      }
+
+      let pricing = document.getElementById('pricing');
+      pricing.addEventListener('click', getPricingData);
+
+      function getPricingData() {
+        let xhr = new XMLHttpRequest();
+        xhr.open('GET','pricing.html',true);
+        xhr.onload = function () {
+          if(xhr.status == 200){
+            let result = document.getElementById('result');
+            result.innerHTML = xhr.responseText;
+          }
+        };
+        xhr.send();
+      }
+
+      let contact = document.getElementById('contact');
+        contact.addEventListener('click', getContactData);
+
+        function getContactData() {
+          let xhr = new XMLHttpRequest();
+          xhr.open('GET', 'contact.html', true);
+          xhr.onload = function () {
+            if (xhr.status == 200) {
+              let result = document.getElementById('result');
+              result.innerHTML = xhr.responseText;
+            }
+          };
+          xhr.send();
+        }
+
+
+
+  </script>
+</body>
+</html>
